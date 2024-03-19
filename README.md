@@ -8,7 +8,7 @@ The Weather App is a simple mobile application built using React Native. It allo
 <p float="left">
   <img src="/weatherappnative/assets/readscreen/cd.jpg" width="250" />
   <img src="/weatherappnative/assets/readscreen/nt.jpg" width="250" /> 
-  <img src="/weatherappnative/assets/readscreen/rn.jpg" width="250" />
+  <img src="/weatherappnative/assets/readscreen/cl.jpg" width="250" />
 </p>
 
 ## 🛠️ Features:<br>
