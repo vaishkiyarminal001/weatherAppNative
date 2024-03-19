@@ -21,10 +21,10 @@ export default function Weather( {weatherData, fetchWeatherData} ) {
 
     function getBackgroundImg(weather){
 
-        if(weather == 'Snow') return snow
-        if(weather == 'Clear') return sunny
-        if(weather == 'Rain') return rainy
-        if(weather == 'Haze') return haze
+        if(weather === 'Snow') return snow
+        if(weather === 'Clear') return sunny
+        if(weather === 'Rain') return rainy
+        if(weather === 'Haze') return haze
         return haze;
     }
 
@@ -32,10 +32,14 @@ export default function Weather( {weatherData, fetchWeatherData} ) {
 
   return (
     <View style={styles.container}>
+
+        <StatusBar backgroundColor='darkgray'/>
+
+
         <ImageBackground
           source={backgroundImage}
           style={styles.backgroundImage}
-          resizeMethod='cover'
+          resizeMode='cover'
         >
 
             <SearchBar fetchWeatherData = {fetchWeatherData}/>

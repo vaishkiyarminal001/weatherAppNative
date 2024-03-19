@@ -2,6 +2,7 @@ import { StatusBar } from 'expo-status-bar';
 import React, { useState, useEffect } from 'react';
 import { StyleSheet, Text, View, ActivityIndicator } from 'react-native';
 import Weather from './components/Weather';
+import SearchBar from './components/SearchBar';
 
 
 const apikey = "f3ec760f890de6d7966c728c8a3b019b";
@@ -43,7 +44,10 @@ export default function App() {
 
   else if(weatherData === null){
     return(
-    <View></View>
+    <View>
+      <SearchBar fetchWeatherData={fetchWeatherData}/>
+      <Text style={styles.primeryData}>Oops!!!! City Not Found! Try Some Different City</Text>
+    </View>
 );
   }
 
@@ -63,4 +67,11 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+
+  primeryData:{
+    marginTop: 20,
+    fontStyle: 'italic',
+    fontSize: 28,
+  }
+
 });
