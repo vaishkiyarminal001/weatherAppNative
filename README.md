@@ -1,4 +1,8 @@
-# weatherAppNative
+# Weather App Native
+
+
+## 📱 Description:<br>
+The Weather App is a simple mobile application built using React Native. It allows users to check the current weather conditions of various cities around the world. The app provides real-time weather data fetched from the OpenWeatherMap API. Users can search for a specific city and view details such as temperature, humidity, and wind speed.<br><br>
 
 ## Screenshots
 <p float="left">
@@ -6,10 +10,6 @@
   <img src="/weatherappnative/assets/readscreen/nt.jpg" width="250" /> 
   <img src="/weatherappnative/assets/readscreen/rn.jpg" width="250" />
 </p>
-
-
-## 📱 Description:<br>
-The Weather App is a simple mobile application built using React Native. It allows users to check the current weather conditions of various cities around the world. The app provides real-time weather data fetched from the OpenWeatherMap API. Users can search for a specific city and view details such as temperature, humidity, and wind speed.<br><br>
 
 ## 🛠️ Features:<br>
 
