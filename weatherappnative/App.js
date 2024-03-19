@@ -51,7 +51,7 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Weather weatherData={weatherData}/>
+      <Weather weatherData={weatherData} fetchWeatherData={fetchWeatherData}/>
     </View>
   );
 }

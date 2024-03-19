@@ -3,7 +3,7 @@ import SearchBar from './SearchBar'
 import React, { useEffect, useState } from 'react'
 import { haze, rainy, snow, sunny } from '../assets/backgroundImages/index';
 
-export default function Weather( {weatherData} ) {
+export default function Weather( {weatherData, fetchWeatherData} ) {
 
     const [backgroundImage, setBackgroundImage] = useState(null);
 
@@ -38,7 +38,7 @@ export default function Weather( {weatherData} ) {
           resizeMethod='cover'
         >
 
-            <SearchBar/>
+            <SearchBar fetchWeatherData = {fetchWeatherData}/>
             <View style={{alignItems:'center'}}>
                 <Text style={{...styles.headerText, color: textColor, fontWeight: 'bold', fontSize: 46}}>{name}</Text>
                 <Text style={{...styles.headerText, color: textColor, fontWeight: 'bold'}}>{main}</Text>
