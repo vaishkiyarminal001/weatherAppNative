@@ -1,10 +1,11 @@
 # weatherAppNative
 
-<img align="right" alt="Coding" width="100%" src="/weatherappnative/assets/readscreen/cd.jpg"><br>
-<img align="right" alt="Coding" width="100%" src="/weatherappnative/assets/readscreen/cl.jpg"><br>
-<img align="right" alt="Coding" width="100%" src="/weatherappnative/assets/readscreen/nt.jpg"><br>
-<img align="right" alt="Coding" width="100%" src="/weatherappnative/assets/readscreen/rn.jpg"><br>
-<img align="right" alt="Coding" width="100%" src="/weatherappnative/assets/readscreen/sn.jpg"><br>
+<img align="right" alt="weather" width="300px" src="/weatherappnative/assets/readscreen/cd.jpg"><br>
+<img align="right" alt="weather" width="300px" src="/weatherappnative/assets/readscreen/cl.jpg"><br>
+<img align="right" alt="weather" width="300px" src="/weatherappnative/assets/readscreen/nt.jpg"><br>
+<img align="right" alt="weather" width="300px" src="/weatherappnative/assets/readscreen/rn.jpg"><br>
+<img align="right" alt="weather" width="300px" src="/weatherappnative/assets/readscreen/sn.jpg"><br>
+
 
 
 ## 📱 Description:<br>
