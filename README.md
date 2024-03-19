@@ -1,7 +1,10 @@
 # weatherAppNative
 
-![Weather App Demo]("./weatherappnative/assets/readscreen/rn.jpg") ("./weatherappnative/assets/readscreen/cd.jpg") ("./weatherappnative/assets/readscreen/cl.jpg")
-("./weatherappnative/assets/readscreen/nt.jpg") ("./weatherappnative/assets/readscreen/nt.jpg")
+<img align="right" alt="Coding" width="100%" src="/weatherappnative/assets/readscreen/cd.jpg"><br>
+<img align="right" alt="Coding" width="100%" src="/weatherappnative/assets/readscreen/cl.jpg"><br>
+<img align="right" alt="Coding" width="100%" src="/weatherappnative/assets/readscreen/nt.jpg"><br>
+<img align="right" alt="Coding" width="100%" src="/weatherappnative/assets/readscreen/rn.jpg"><br>
+<img align="right" alt="Coding" width="100%" src="/weatherappnative/assets/readscreen/sn.jpg"><br>
 
 
 ## 📱 Description:<br>
